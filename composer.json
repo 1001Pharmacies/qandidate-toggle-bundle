@@ -18,8 +18,14 @@
             "Qandidate\\Bundle\\ToggleBundle\\": ""
         }
     },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/1001Pharmacies/qandidate-toggle"
+      }
+    ],
     "require": {
-        "qandidate/toggle": "~1.0",
+        "qandidate/toggle": "dev-master",
         "symfony/framework-bundle": "~2.7|~3.0",
         "doctrine/common": "~2.2",
         "symfony/security-core": "~2.7|~3.0"
